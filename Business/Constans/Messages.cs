@@ -12,5 +12,7 @@ namespace Business.Constans
         public static string DailyPriceInvalid = "DailyPrice of Car must be maximum 0.";
         internal static string MaintenanceTime="System maintenance";
         internal static string CarUpdated="Car Updated";
+        internal static string RentalInvalid="Rental Invalid!!";
+        internal static string Rent_A_Car="Rent A Car";
     }
 }
