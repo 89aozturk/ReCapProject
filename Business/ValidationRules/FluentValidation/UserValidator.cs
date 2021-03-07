@@ -14,7 +14,6 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(u => u.LastName).NotEmpty();
             RuleFor(u => u.FirstName).MinimumLength(3);
             RuleFor(u => u.LastName).MinimumLength(2);
-            RuleFor(u => u.Password).NotNull();
             RuleFor(u => u.Email).NotNull();
             RuleFor(u => u.Email).Must(ContainsCom).WithMessage("Check .com symbol!!");
             
